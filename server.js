@@ -36,6 +36,7 @@ const TOKEN_SECRET = process.env.TOKEN_SECRET || "change_this_secret";
 const ROOT = __dirname;
 const RUNTIME_DIR = IS_VERCEL ? path.join("/tmp", "nimble-runtime") : ROOT;
 const DB_PATH = IS_VERCEL ? path.join(RUNTIME_DIR, "db.json") : path.join(ROOT, "data", "db.json");
+const SEED_DB_PATH = path.join(ROOT, "data", "db.json");
 const PUBLIC_DIR = path.join(ROOT, "public");
 const UPLOADS_DIR = IS_VERCEL ? path.join(RUNTIME_DIR, "uploads") : path.join(ROOT, "uploads");
 
@@ -121,9 +122,44 @@ async function readBody(req) {
 async function ensureDb() {
   await fsp.mkdir(path.dirname(DB_PATH), { recursive: true });
   await fsp.mkdir(UPLOADS_DIR, { recursive: true });
-  const exists = fs.existsSync(DB_PATH);
-  if (!exists) {
-    await fsp.writeFile(DB_PATH, JSON.stringify({ users: [], products: [], orders: [] }, null, 2));
+
+  const fallbackDb = { users: [], products: [], orders: [] };
+  let seedDb = fallbackDb;
+  if (fs.existsSync(SEED_DB_PATH)) {
+    try {
+      const seedRaw = await fsp.readFile(SEED_DB_PATH, "utf8");
+      const parsed = JSON.parse(seedRaw);
+      seedDb = {
+        users: Array.isArray(parsed.users) ? parsed.users : [],
+        products: Array.isArray(parsed.products) ? parsed.products : [],
+        orders: Array.isArray(parsed.orders) ? parsed.orders : []
+      };
+    } catch {
+      seedDb = fallbackDb;
+    }
+  }
+
+  if (!fs.existsSync(DB_PATH)) {
+    await fsp.writeFile(DB_PATH, JSON.stringify(seedDb, null, 2));
+    return;
+  }
+
+  try {
+    const currentRaw = await fsp.readFile(DB_PATH, "utf8");
+    const current = JSON.parse(currentRaw);
+    const next = {
+      users: Array.isArray(current.users) ? current.users : [],
+      products: Array.isArray(current.products) ? current.products : [],
+      orders: Array.isArray(current.orders) ? current.orders : []
+    };
+
+    // On ephemeral serverless runtime, hydrate products if runtime DB is empty.
+    if (next.products.length === 0 && seedDb.products.length > 0) {
+      next.products = seedDb.products;
+      await fsp.writeFile(DB_PATH, JSON.stringify(next, null, 2));
+    }
+  } catch {
+    await fsp.writeFile(DB_PATH, JSON.stringify(seedDb, null, 2));
   }
 }
 

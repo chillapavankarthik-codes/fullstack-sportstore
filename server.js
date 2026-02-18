@@ -21,9 +21,12 @@ function loadDotEnv() {
 
 loadDotEnv();
 
+const IS_VERCEL = Boolean(process.env.VERCEL);
 const PORT = Number(process.env.PORT || 3000);
 const HOST = process.env.HOST || "127.0.0.1";
-const APP_ORIGIN = process.env.APP_ORIGIN || `http://${HOST}:${PORT}`;
+const APP_ORIGIN =
+  process.env.APP_ORIGIN ||
+  (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://${HOST}:${PORT}`);
 const STRIPE_SECRET_KEY = process.env.STRIPE_SECRET_KEY || "";
 const STRIPE_PRICE_CURRENCY = process.env.STRIPE_PRICE_CURRENCY || "usd";
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "admin@sportstore.local";
@@ -31,9 +34,10 @@ const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "admin123";
 const TOKEN_SECRET = process.env.TOKEN_SECRET || "change_this_secret";
 
 const ROOT = __dirname;
-const DB_PATH = path.join(ROOT, "data", "db.json");
+const RUNTIME_DIR = IS_VERCEL ? path.join("/tmp", "nimble-runtime") : ROOT;
+const DB_PATH = IS_VERCEL ? path.join(RUNTIME_DIR, "db.json") : path.join(ROOT, "data", "db.json");
 const PUBLIC_DIR = path.join(ROOT, "public");
-const UPLOADS_DIR = path.join(ROOT, "uploads");
+const UPLOADS_DIR = IS_VERCEL ? path.join(RUNTIME_DIR, "uploads") : path.join(ROOT, "uploads");
 
 const MIME_TYPES = {
   ".html": "text/html; charset=utf-8",
@@ -194,7 +198,15 @@ function sanitizeFileName(fileName) {
     .slice(0, 80);
 }
 
-async function createStripeSession(order, req) {
+function requestOrigin(req) {
+  const forwardedProto = String(req.headers["x-forwarded-proto"] || "").split(",")[0].trim();
+  const forwardedHost = String(req.headers["x-forwarded-host"] || "").split(",")[0].trim();
+  const host = forwardedHost || req.headers.host || new URL(APP_ORIGIN).host;
+  const proto = forwardedProto || (IS_VERCEL ? "https" : "http");
+  return `${proto}://${host}`;
+}
+
+async function createStripeSession(order, origin) {
   const lineItems = order.items.map((item) => ({
     price_data: {
       currency: STRIPE_PRICE_CURRENCY,
@@ -206,8 +218,8 @@ async function createStripeSession(order, req) {
 
   const params = new URLSearchParams();
   params.append("mode", "payment");
-  params.append("success_url", `${APP_ORIGIN}/orders.html?status=success`);
-  params.append("cancel_url", `${APP_ORIGIN}/checkout.html?status=cancel`);
+  params.append("success_url", `${origin}/orders.html?status=success`);
+  params.append("cancel_url", `${origin}/checkout.html?status=cancel`);
   lineItems.forEach((li, idx) => {
     params.append(`line_items[${idx}][price_data][currency]`, li.price_data.currency);
     params.append(`line_items[${idx}][price_data][product_data][name]`, li.price_data.product_data.name);
@@ -458,7 +470,7 @@ async function handleApi(req, res, url) {
         return json(res, 400, { error: "Stripe is not configured on server" });
       }
       try {
-        const stripeSession = await createStripeSession(order, req);
+        const stripeSession = await createStripeSession(order, requestOrigin(req));
         order.stripeSessionId = stripeSession.id;
         order.paymentStatus = "requires_action";
         order.checkoutUrl = stripeSession.url;
@@ -535,9 +547,8 @@ async function serveStatic(req, res, url) {
   }
 }
 
-const server = http.createServer(async (req, res) => {
-  const url = new URL(req.url, APP_ORIGIN);
-
+async function requestHandler(req, res) {
+  const url = new URL(req.url, requestOrigin(req));
   try {
     if (url.pathname.startsWith("/api/")) {
       const handled = await handleApi(req, res, url);
@@ -552,12 +563,31 @@ const server = http.createServer(async (req, res) => {
     console.error(error);
     json(res, 500, { error: "Internal server error" });
   }
-});
+}
 
-(async () => {
-  await ensureDb();
-  await ensureAdminUser();
-  server.listen(PORT, HOST, () => {
-    console.log(`SportStore full-stack running at ${APP_ORIGIN}`);
+let bootPromise;
+function boot() {
+  if (!bootPromise) {
+    bootPromise = (async () => {
+      await ensureDb();
+      await ensureAdminUser();
+    })();
+  }
+  return bootPromise;
+}
+
+if (IS_VERCEL) {
+  module.exports = async (req, res) => {
+    await boot();
+    return requestHandler(req, res);
+  };
+} else {
+  const server = http.createServer(async (req, res) => {
+    await boot();
+    await requestHandler(req, res);
   });
-})();
+
+  server.listen(PORT, HOST, () => {
+    console.log(`Nimble full-stack running at ${APP_ORIGIN}`);
+  });
+}

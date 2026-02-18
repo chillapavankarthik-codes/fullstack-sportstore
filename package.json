@@ -1,0 +1,14 @@
+{
+  "name": "sportstore-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack sports e-commerce mini store with auth, admin, uploads, and Stripe-ready checkout",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

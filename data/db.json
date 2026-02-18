@@ -1,0 +1,1515 @@
+{
+  "users": [
+    {
+      "id": "u_9426078e-99bd-4d85-8ac6-3c41c062095e",
+      "name": "Admin",
+      "email": "admin@sportstore.local",
+      "passwordHash": "6b328c0fac803dc15e28e17853c74c7c:a21328dd3e33dbc3111951b24cec605c9c27f7c5e694f6619c8c00808b3a44a0de0e74519bc5bbd68d03b59d6f2b71a7a931b720175226d48c624724f4c80983",
+      "isAdmin": true,
+      "createdAt": "2026-02-18T07:23:03.704Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "bb-1001",
+      "name": "ProGrip Basketball Size 7",
+      "brand": "Apex Sports",
+      "category": "Basketball",
+      "price": 29.99,
+      "rating": 4.2,
+      "reviewCount": 320,
+      "stock": 64,
+      "images": [
+        "https://loremflickr.com/1200/800/basketball-ball?lock=700",
+        "https://picsum.photos/seed/nimble-bb-1001/1200/800"
+      ],
+      "shortDescription": "Official-size basketball with stable bounce and confident grip.",
+      "description": "ProGrip Basketball Size 7 by Apex Sports is engineered for match and training. Deep channel texture improves control during dribbles and pull-up shots. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Deep channel texture improves control during dribbles and pull-up shots.",
+        "Optimized for indoor/outdoor.",
+        "Premium composite performance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BB-1001",
+        "Category": "Basketball",
+        "Build": "Composite performance build",
+        "RecommendedUse": "Indoor/Outdoor",
+        "SkillLevel": "Match and training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bb-1002",
+      "name": "RimForce Wall Hoop System",
+      "brand": "TitanCourt",
+      "category": "Basketball",
+      "price": 149,
+      "rating": 4.3,
+      "reviewCount": 457,
+      "stock": 21,
+      "images": [
+        "https://loremflickr.com/1200/800/basketball-hoop?lock=701",
+        "https://picsum.photos/seed/nimble-bb-1002/1200/800"
+      ],
+      "shortDescription": "Heavy-duty wall hoop with spring rim for home and club courts.",
+      "description": "RimForce Wall Hoop System by TitanCourt is engineered for match and training. Shatter-resistant board and powder-coated frame handle intense daily use. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Shatter-resistant board and powder-coated frame handle intense daily use.",
+        "Optimized for indoor/outdoor.",
+        "Premium composite performance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BB-1002",
+        "Category": "Basketball",
+        "Build": "Composite performance build",
+        "RecommendedUse": "Indoor/Outdoor",
+        "SkillLevel": "Match and training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bb-1003",
+      "name": "AeroJump Basketball Shoes V2",
+      "brand": "FlightCore",
+      "category": "Basketball",
+      "price": 119,
+      "rating": 4.4,
+      "reviewCount": 594,
+      "stock": 33,
+      "images": [
+        "https://loremflickr.com/1200/800/basketball-shoes?lock=702",
+        "https://picsum.photos/seed/nimble-bb-1003/1200/800"
+      ],
+      "shortDescription": "Court shoes with ankle support and responsive cushioning.",
+      "description": "AeroJump Basketball Shoes V2 by FlightCore is engineered for match and training. Engineered outsole pattern gives faster cuts and cleaner stop-start movement. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Engineered outsole pattern gives faster cuts and cleaner stop-start movement.",
+        "Optimized for indoor/outdoor.",
+        "Premium composite performance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BB-1003",
+        "Category": "Basketball",
+        "Build": "Composite performance build",
+        "RecommendedUse": "Indoor/Outdoor",
+        "SkillLevel": "Match and training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sc-2001",
+      "name": "Velocity Match Soccer Ball",
+      "brand": "StrikerOne",
+      "category": "Soccer",
+      "price": 34.5,
+      "rating": 4.5,
+      "reviewCount": 731,
+      "stock": 58,
+      "images": [
+        "https://loremflickr.com/1200/800/soccer-ball?lock=703",
+        "https://picsum.photos/seed/nimble-sc-2001/1200/800"
+      ],
+      "shortDescription": "Match-ready soccer ball with true flight and durable stitching.",
+      "description": "Velocity Match Soccer Ball by StrikerOne is engineered for practice and league play. Balanced panel structure keeps passes and long shots predictable. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Balanced panel structure keeps passes and long shots predictable.",
+        "Optimized for grass and turf.",
+        "Premium match-grade construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SC-2001",
+        "Category": "Soccer",
+        "Build": "Match-grade construction",
+        "RecommendedUse": "Grass and turf",
+        "SkillLevel": "Practice and league play",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sc-2002",
+      "name": "SprintLite FG Soccer Cleats",
+      "brand": "VoltKick",
+      "category": "Soccer",
+      "price": 89,
+      "rating": 4.6,
+      "reviewCount": 868,
+      "stock": 40,
+      "images": [
+        "https://loremflickr.com/1200/800/soccer-cleats?lock=704",
+        "https://picsum.photos/seed/nimble-sc-2002/1200/800"
+      ],
+      "shortDescription": "Firm-ground cleats for traction, acceleration, and quick direction changes.",
+      "description": "SprintLite FG Soccer Cleats by VoltKick is engineered for practice and league play. Stud geometry gives confident grip on natural grass without drag. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Stud geometry gives confident grip on natural grass without drag.",
+        "Optimized for grass and turf.",
+        "Premium match-grade construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SC-2002",
+        "Category": "Soccer",
+        "Build": "Match-grade construction",
+        "RecommendedUse": "Grass and turf",
+        "SkillLevel": "Practice and league play",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sc-2003",
+      "name": "Pro Guard Goalkeeper Gloves",
+      "brand": "NetGuard",
+      "category": "Soccer",
+      "price": 54.99,
+      "rating": 4.7,
+      "reviewCount": 1005,
+      "stock": 37,
+      "images": [
+        "https://loremflickr.com/1200/800/goalkeeper-gloves?lock=705",
+        "https://picsum.photos/seed/nimble-sc-2003/1200/800"
+      ],
+      "shortDescription": "Goalkeeper gloves with tacky latex palms and finger support.",
+      "description": "Pro Guard Goalkeeper Gloves by NetGuard is engineered for practice and league play. Secure wrist closure and high-grip surface improve confident saves. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Secure wrist closure and high-grip surface improve confident saves.",
+        "Optimized for grass and turf.",
+        "Premium match-grade construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SC-2003",
+        "Category": "Soccer",
+        "Build": "Match-grade construction",
+        "RecommendedUse": "Grass and turf",
+        "SkillLevel": "Practice and league play",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "tn-3001",
+      "name": "CarbonLite Tennis Racket 300g",
+      "brand": "CourtLab",
+      "category": "Tennis",
+      "price": 129,
+      "rating": 4.8,
+      "reviewCount": 1142,
+      "stock": 26,
+      "images": [
+        "https://loremflickr.com/1200/800/tennis-racket?lock=706",
+        "https://picsum.photos/seed/nimble-tn-3001/1200/800"
+      ],
+      "shortDescription": "Balanced racket for spin, control, and all-court consistency.",
+      "description": "CarbonLite Tennis Racket 300g by CourtLab is engineered for intermediate to advanced. Open string pattern helps generate spin while preserving shot precision. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Open string pattern helps generate spin while preserving shot precision.",
+        "Optimized for hard and clay courts.",
+        "Premium control-oriented frame for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "TN-3001",
+        "Category": "Tennis",
+        "Build": "Control-oriented frame",
+        "RecommendedUse": "Hard and clay courts",
+        "SkillLevel": "Intermediate to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "tn-3002",
+      "name": "SpinMax Tennis Ball Can 4-Pack",
+      "brand": "AcePulse",
+      "category": "Tennis",
+      "price": 14.99,
+      "rating": 4.2,
+      "reviewCount": 1279,
+      "stock": 92,
+      "images": [
+        "https://loremflickr.com/1200/800/tennis-ball?lock=707",
+        "https://picsum.photos/seed/nimble-tn-3002/1200/800"
+      ],
+      "shortDescription": "Pressurized tennis balls with reliable bounce and felt durability.",
+      "description": "SpinMax Tennis Ball Can 4-Pack by AcePulse is engineered for intermediate to advanced. Consistent core pressure keeps rallies smooth over extended play. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Consistent core pressure keeps rallies smooth over extended play.",
+        "Optimized for hard and clay courts.",
+        "Premium control-oriented frame for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "TN-3002",
+        "Category": "Tennis",
+        "Build": "Control-oriented frame",
+        "RecommendedUse": "Hard and clay courts",
+        "SkillLevel": "Intermediate to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "tn-3003",
+      "name": "CourtSprint Tennis Shoes",
+      "brand": "BaselineX",
+      "category": "Tennis",
+      "price": 109,
+      "rating": 4.3,
+      "reviewCount": 1416,
+      "stock": 28,
+      "images": [
+        "https://loremflickr.com/1200/800/tennis-shoes?lock=708",
+        "https://picsum.photos/seed/nimble-tn-3003/1200/800"
+      ],
+      "shortDescription": "Lightweight tennis shoes with reinforced toe drag and lateral support.",
+      "description": "CourtSprint Tennis Shoes by BaselineX is engineered for intermediate to advanced. Supportive sidewall stabilizes aggressive baseline movement. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Supportive sidewall stabilizes aggressive baseline movement.",
+        "Optimized for hard and clay courts.",
+        "Premium control-oriented frame for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "TN-3003",
+        "Category": "Tennis",
+        "Build": "Control-oriented frame",
+        "RecommendedUse": "Hard and clay courts",
+        "SkillLevel": "Intermediate to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ft-4001",
+      "name": "PowerHex Adjustable Dumbbells Pair",
+      "brand": "IronGrid",
+      "category": "Fitness",
+      "price": 249.99,
+      "rating": 4.4,
+      "reviewCount": 1553,
+      "stock": 18,
+      "images": [
+        "https://loremflickr.com/1200/800/dumbbells?lock=709",
+        "https://picsum.photos/seed/nimble-ft-4001/1200/800"
+      ],
+      "shortDescription": "Quick-adjust dumbbells replacing a full home rack setup.",
+      "description": "PowerHex Adjustable Dumbbells Pair by IronGrid is engineered for strength and conditioning. Fast dial changes keep supersets and circuits moving efficiently. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Fast dial changes keep supersets and circuits moving efficiently.",
+        "Optimized for home gym.",
+        "Premium heavy-duty steel components for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "FT-4001",
+        "Category": "Fitness",
+        "Build": "Heavy-duty steel components",
+        "RecommendedUse": "Home gym",
+        "SkillLevel": "Strength and conditioning",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ft-4002",
+      "name": "SolidCast Kettlebell 24kg",
+      "brand": "IronGrid",
+      "category": "Fitness",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviewCount": 1690,
+      "stock": 25,
+      "images": [
+        "https://loremflickr.com/1200/800/kettlebell?lock=710",
+        "https://picsum.photos/seed/nimble-ft-4002/1200/800"
+      ],
+      "shortDescription": "Single-cast kettlebell with ergonomic handle and stable base.",
+      "description": "SolidCast Kettlebell 24kg by IronGrid is engineered for strength and conditioning. Balanced weight distribution supports swings, cleans, and presses. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Balanced weight distribution supports swings, cleans, and presses.",
+        "Optimized for home gym.",
+        "Premium heavy-duty steel components for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "FT-4002",
+        "Category": "Fitness",
+        "Build": "Heavy-duty steel components",
+        "RecommendedUse": "Home gym",
+        "SkillLevel": "Strength and conditioning",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ft-4003",
+      "name": "ProBench Adjustable Weight Bench",
+      "brand": "ForgeFit",
+      "category": "Fitness",
+      "price": 229,
+      "rating": 4.6,
+      "reviewCount": 1827,
+      "stock": 14,
+      "images": [
+        "https://loremflickr.com/1200/800/weight-bench?lock=711",
+        "https://picsum.photos/seed/nimble-ft-4003/1200/800"
+      ],
+      "shortDescription": "Commercial-grade bench with multi-angle incline and decline settings.",
+      "description": "ProBench Adjustable Weight Bench by ForgeFit is engineered for strength and conditioning. Reinforced steel frame keeps pressing movements stable and secure. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Reinforced steel frame keeps pressing movements stable and secure.",
+        "Optimized for home gym.",
+        "Premium heavy-duty steel components for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "FT-4003",
+        "Category": "Fitness",
+        "Build": "Heavy-duty steel components",
+        "RecommendedUse": "Home gym",
+        "SkillLevel": "Strength and conditioning",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ft-4004",
+      "name": "EliteRun Treadmill 12% Incline",
+      "brand": "RunSphere",
+      "category": "Fitness",
+      "price": 899,
+      "rating": 4.7,
+      "reviewCount": 1964,
+      "stock": 12,
+      "images": [
+        "https://loremflickr.com/1200/800/treadmill?lock=712",
+        "https://picsum.photos/seed/nimble-ft-4004/1200/800"
+      ],
+      "shortDescription": "Foldable treadmill with incline training and shock-absorbing deck.",
+      "description": "EliteRun Treadmill 12% Incline by RunSphere is engineered for strength and conditioning. Quiet motor and cushioned surface support long indoor runs. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Quiet motor and cushioned surface support long indoor runs.",
+        "Optimized for home gym.",
+        "Premium heavy-duty steel components for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "FT-4004",
+        "Category": "Fitness",
+        "Build": "Heavy-duty steel components",
+        "RecommendedUse": "Home gym",
+        "SkillLevel": "Strength and conditioning",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ft-4005",
+      "name": "Performance Resistance Band Kit",
+      "brand": "FlexCore",
+      "category": "Fitness",
+      "price": 24.99,
+      "rating": 4.8,
+      "reviewCount": 2101,
+      "stock": 110,
+      "images": [
+        "https://loremflickr.com/1200/800/resistance-bands?lock=713",
+        "https://picsum.photos/seed/nimble-ft-4005/1200/800"
+      ],
+      "shortDescription": "Stackable resistance bands for strength and mobility sessions.",
+      "description": "Performance Resistance Band Kit by FlexCore is engineered for strength and conditioning. Travel-ready kit enables full-body training in compact spaces. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Travel-ready kit enables full-body training in compact spaces.",
+        "Optimized for home gym.",
+        "Premium heavy-duty steel components for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "FT-4005",
+        "Category": "Fitness",
+        "Build": "Heavy-duty steel components",
+        "RecommendedUse": "Home gym",
+        "SkillLevel": "Strength and conditioning",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "yg-5001",
+      "name": "EcoFlow Yoga Mat 6mm",
+      "brand": "ZenMotion",
+      "category": "Yoga",
+      "price": 39.99,
+      "rating": 4.2,
+      "reviewCount": 2238,
+      "stock": 78,
+      "images": [
+        "https://loremflickr.com/1200/800/yoga-mat?lock=714",
+        "https://picsum.photos/seed/nimble-yg-5001/1200/800"
+      ],
+      "shortDescription": "High-grip yoga mat offering comfort and stable footing.",
+      "description": "EcoFlow Yoga Mat 6mm by ZenMotion is engineered for beginner to advanced. Closed-cell texture maintains traction during heated sessions. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Closed-cell texture maintains traction during heated sessions.",
+        "Optimized for studio and home practice.",
+        "Premium eco-conscious materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "YG-5001",
+        "Category": "Yoga",
+        "Build": "Eco-conscious materials",
+        "RecommendedUse": "Studio and home practice",
+        "SkillLevel": "Beginner to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "yg-5002",
+      "name": "Cork Balance Yoga Block Pair",
+      "brand": "ZenMotion",
+      "category": "Yoga",
+      "price": 22.99,
+      "rating": 4.3,
+      "reviewCount": 2375,
+      "stock": 84,
+      "images": [
+        "https://loremflickr.com/1200/800/yoga-block?lock=715",
+        "https://picsum.photos/seed/nimble-yg-5002/1200/800"
+      ],
+      "shortDescription": "Dense cork yoga blocks for support in balance and flexibility poses.",
+      "description": "Cork Balance Yoga Block Pair by ZenMotion is engineered for beginner to advanced. Firm natural cork surface gives secure elevation and alignment. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Firm natural cork surface gives secure elevation and alignment.",
+        "Optimized for studio and home practice.",
+        "Premium eco-conscious materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "YG-5002",
+        "Category": "Yoga",
+        "Build": "Eco-conscious materials",
+        "RecommendedUse": "Studio and home practice",
+        "SkillLevel": "Beginner to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "yg-5003",
+      "name": "FlowStretch Yoga Strap 8ft",
+      "brand": "ZenMotion",
+      "category": "Yoga",
+      "price": 16.99,
+      "rating": 4.4,
+      "reviewCount": 2512,
+      "stock": 120,
+      "images": [
+        "https://loremflickr.com/1200/800/yoga-strap?lock=716",
+        "https://picsum.photos/seed/nimble-yg-5003/1200/800"
+      ],
+      "shortDescription": "Durable stretch strap for mobility work and deep pose progressions.",
+      "description": "FlowStretch Yoga Strap 8ft by ZenMotion is engineered for beginner to advanced. Adjustable loop design enables controlled stretching for all levels. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Adjustable loop design enables controlled stretching for all levels.",
+        "Optimized for studio and home practice.",
+        "Premium eco-conscious materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "YG-5003",
+        "Category": "Yoga",
+        "Build": "Eco-conscious materials",
+        "RecommendedUse": "Studio and home practice",
+        "SkillLevel": "Beginner to advanced",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cy-6001",
+      "name": "RoadSprint Cycling Helmet",
+      "brand": "VeloPrime",
+      "category": "Cycling",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviewCount": 2649,
+      "stock": 31,
+      "images": [
+        "https://loremflickr.com/1200/800/cycling-helmet?lock=717",
+        "https://picsum.photos/seed/nimble-cy-6001/1200/800"
+      ],
+      "shortDescription": "Ventilated cycling helmet with dial fit and impact protection.",
+      "description": "RoadSprint Cycling Helmet by VeloPrime is engineered for daily riders. Lightweight shell and airflow channels keep rides cool and secure. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Lightweight shell and airflow channels keep rides cool and secure.",
+        "Optimized for road and trail.",
+        "Premium ventilated lightweight design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CY-6001",
+        "Category": "Cycling",
+        "Build": "Ventilated lightweight design",
+        "RecommendedUse": "Road and trail",
+        "SkillLevel": "Daily riders",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cy-6002",
+      "name": "AeroRide Cycling Jersey",
+      "brand": "VeloPrime",
+      "category": "Cycling",
+      "price": 59.99,
+      "rating": 4.6,
+      "reviewCount": 2786,
+      "stock": 42,
+      "images": [
+        "https://loremflickr.com/1200/800/cycling-jersey?lock=718",
+        "https://picsum.photos/seed/nimble-cy-6002/1200/800"
+      ],
+      "shortDescription": "Breathable cycling jersey with rear pockets and race fit.",
+      "description": "AeroRide Cycling Jersey by VeloPrime is engineered for daily riders. Moisture-managing fabric supports long climbs and hot-weather rides. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Moisture-managing fabric supports long climbs and hot-weather rides.",
+        "Optimized for road and trail.",
+        "Premium ventilated lightweight design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CY-6002",
+        "Category": "Cycling",
+        "Build": "Ventilated lightweight design",
+        "RecommendedUse": "Road and trail",
+        "SkillLevel": "Daily riders",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cy-6003",
+      "name": "GripFlow MTB Gloves",
+      "brand": "TrailForge",
+      "category": "Cycling",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviewCount": 2923,
+      "stock": 55,
+      "images": [
+        "https://loremflickr.com/1200/800/cycling-gloves?lock=719",
+        "https://picsum.photos/seed/nimble-cy-6003/1200/800"
+      ],
+      "shortDescription": "Mountain bike gloves with padded palm and touchscreen fingertips.",
+      "description": "GripFlow MTB Gloves by TrailForge is engineered for daily riders. Shock-dampening palm zones reduce hand fatigue on rough trails. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Shock-dampening palm zones reduce hand fatigue on rough trails.",
+        "Optimized for road and trail.",
+        "Premium ventilated lightweight design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CY-6003",
+        "Category": "Cycling",
+        "Build": "Ventilated lightweight design",
+        "RecommendedUse": "Road and trail",
+        "SkillLevel": "Daily riders",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "rn-7001",
+      "name": "CloudStride Running Shoes",
+      "brand": "PaceLine",
+      "category": "Running",
+      "price": 129.99,
+      "rating": 4.8,
+      "reviewCount": 3060,
+      "stock": 48,
+      "images": [
+        "https://loremflickr.com/1200/800/running-shoes?lock=720",
+        "https://picsum.photos/seed/nimble-rn-7001/1200/800"
+      ],
+      "shortDescription": "Neutral running shoes with plush cushioning and stable ride.",
+      "description": "CloudStride Running Shoes by PaceLine is engineered for tempo to long distance. Energy-return foam helps maintain tempo during long-distance runs. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Energy-return foam helps maintain tempo during long-distance runs.",
+        "Optimized for road and track.",
+        "Premium lightweight endurance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "RN-7001",
+        "Category": "Running",
+        "Build": "Lightweight endurance build",
+        "RecommendedUse": "Road and track",
+        "SkillLevel": "Tempo to long distance",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "rn-7002",
+      "name": "HydraBelt Running Waist Pack",
+      "brand": "PaceLine",
+      "category": "Running",
+      "price": 32.99,
+      "rating": 4.2,
+      "reviewCount": 3197,
+      "stock": 66,
+      "images": [
+        "https://loremflickr.com/1200/800/running-belt?lock=721",
+        "https://picsum.photos/seed/nimble-rn-7002/1200/800"
+      ],
+      "shortDescription": "Low-bounce hydration belt with secure storage pockets.",
+      "description": "HydraBelt Running Waist Pack by PaceLine is engineered for tempo to long distance. Slim profile keeps essentials steady without interrupting stride. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Slim profile keeps essentials steady without interrupting stride.",
+        "Optimized for road and track.",
+        "Premium lightweight endurance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "RN-7002",
+        "Category": "Running",
+        "Build": "Lightweight endurance build",
+        "RecommendedUse": "Road and track",
+        "SkillLevel": "Tempo to long distance",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "rn-7003",
+      "name": "SprintSync GPS Running Watch",
+      "brand": "ChronoFit",
+      "category": "Running",
+      "price": 189.99,
+      "rating": 4.3,
+      "reviewCount": 3334,
+      "stock": 20,
+      "images": [
+        "https://loremflickr.com/1200/800/running-watch?lock=722",
+        "https://picsum.photos/seed/nimble-rn-7003/1200/800"
+      ],
+      "shortDescription": "GPS training watch with heart-rate tracking and route metrics.",
+      "description": "SprintSync GPS Running Watch by ChronoFit is engineered for tempo to long distance. Real-time pace insights help structure intervals and recovery runs. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Real-time pace insights help structure intervals and recovery runs.",
+        "Optimized for road and track.",
+        "Premium lightweight endurance build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "RN-7003",
+        "Category": "Running",
+        "Build": "Lightweight endurance build",
+        "RecommendedUse": "Road and track",
+        "SkillLevel": "Tempo to long distance",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sw-8001",
+      "name": "HydroFlex Swim Goggles",
+      "brand": "AquaPulse",
+      "category": "Swimming",
+      "price": 19.99,
+      "rating": 4.4,
+      "reviewCount": 3471,
+      "stock": 86,
+      "images": [
+        "https://loremflickr.com/1200/800/swim-goggles?lock=723",
+        "https://picsum.photos/seed/nimble-sw-8001/1200/800"
+      ],
+      "shortDescription": "Anti-fog goggles with wide-angle lens and leak-resistant seal.",
+      "description": "HydroFlex Swim Goggles by AquaPulse is engineered for training and race prep. Panoramic design improves lane awareness in pool training. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Panoramic design improves lane awareness in pool training.",
+        "Optimized for pool and open water.",
+        "Premium hydrodynamic design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SW-8001",
+        "Category": "Swimming",
+        "Build": "Hydrodynamic design",
+        "RecommendedUse": "Pool and open water",
+        "SkillLevel": "Training and race prep",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sw-8002",
+      "name": "Silicone Streamline Swim Cap",
+      "brand": "AquaPulse",
+      "category": "Swimming",
+      "price": 12.99,
+      "rating": 4.5,
+      "reviewCount": 3608,
+      "stock": 95,
+      "images": [
+        "https://loremflickr.com/1200/800/swim-cap?lock=724",
+        "https://picsum.photos/seed/nimble-sw-8002/1200/800"
+      ],
+      "shortDescription": "Hydrodynamic swim cap for reduced drag and secure fit.",
+      "description": "Silicone Streamline Swim Cap by AquaPulse is engineered for training and race prep. Soft silicone construction balances comfort with race-ready compression. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Soft silicone construction balances comfort with race-ready compression.",
+        "Optimized for pool and open water.",
+        "Premium hydrodynamic design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SW-8002",
+        "Category": "Swimming",
+        "Build": "Hydrodynamic design",
+        "RecommendedUse": "Pool and open water",
+        "SkillLevel": "Training and race prep",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sw-8003",
+      "name": "Training Kickboard Pro",
+      "brand": "AquaPulse",
+      "category": "Swimming",
+      "price": 24.99,
+      "rating": 4.6,
+      "reviewCount": 3745,
+      "stock": 44,
+      "images": [
+        "https://loremflickr.com/1200/800/swim-kickboard?lock=725",
+        "https://picsum.photos/seed/nimble-sw-8003/1200/800"
+      ],
+      "shortDescription": "High-buoyancy kickboard for lower-body swim drills.",
+      "description": "Training Kickboard Pro by AquaPulse is engineered for training and race prep. Ergonomic contours support kick sets without shoulder strain. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Ergonomic contours support kick sets without shoulder strain.",
+        "Optimized for pool and open water.",
+        "Premium hydrodynamic design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SW-8003",
+        "Category": "Swimming",
+        "Build": "Hydrodynamic design",
+        "RecommendedUse": "Pool and open water",
+        "SkillLevel": "Training and race prep",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bd-9001",
+      "name": "AirDrive Badminton Racket Set",
+      "brand": "FeatherPro",
+      "category": "Badminton",
+      "price": 69.99,
+      "rating": 4.7,
+      "reviewCount": 3882,
+      "stock": 39,
+      "images": [
+        "https://loremflickr.com/1200/800/badminton-racket?lock=726",
+        "https://picsum.photos/seed/nimble-bd-9001/1200/800"
+      ],
+      "shortDescription": "Two-racket badminton set tuned for speed and control.",
+      "description": "AirDrive Badminton Racket Set by FeatherPro is engineered for club and competitive players. Flexible shaft profile supports both clears and fast net play. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Flexible shaft profile supports both clears and fast net play.",
+        "Optimized for indoor courts.",
+        "Premium fast-response structure for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BD-9001",
+        "Category": "Badminton",
+        "Build": "Fast-response structure",
+        "RecommendedUse": "Indoor courts",
+        "SkillLevel": "Club and competitive players",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bd-9002",
+      "name": "Tournament Shuttlecock Tube",
+      "brand": "FeatherPro",
+      "category": "Badminton",
+      "price": 18.99,
+      "rating": 4.8,
+      "reviewCount": 4019,
+      "stock": 88,
+      "images": [
+        "https://loremflickr.com/1200/800/shuttlecock?lock=727",
+        "https://picsum.photos/seed/nimble-bd-9002/1200/800"
+      ],
+      "shortDescription": "Precision shuttlecocks with consistent flight and durability.",
+      "description": "Tournament Shuttlecock Tube by FeatherPro is engineered for club and competitive players. Stable feather arrangement keeps trajectory predictable in rallies. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Stable feather arrangement keeps trajectory predictable in rallies.",
+        "Optimized for indoor courts.",
+        "Premium fast-response structure for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BD-9002",
+        "Category": "Badminton",
+        "Build": "Fast-response structure",
+        "RecommendedUse": "Indoor courts",
+        "SkillLevel": "Club and competitive players",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ck-10001",
+      "name": "BladePro English Willow Cricket Bat",
+      "brand": "StumpCraft",
+      "category": "Cricket",
+      "price": 199,
+      "rating": 4.2,
+      "reviewCount": 4156,
+      "stock": 16,
+      "images": [
+        "https://loremflickr.com/1200/800/cricket-bat?lock=728",
+        "https://picsum.photos/seed/nimble-ck-10001/1200/800"
+      ],
+      "shortDescription": "Premium cricket bat with thick edges and balanced pickup.",
+      "description": "BladePro English Willow Cricket Bat by StumpCraft is engineered for league standard. Pressed willow profile improves timing and clean boundary striking. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Pressed willow profile improves timing and clean boundary striking.",
+        "Optimized for net and match play.",
+        "Premium impact-tested materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CK-10001",
+        "Category": "Cricket",
+        "Build": "Impact-tested materials",
+        "RecommendedUse": "Net and match play",
+        "SkillLevel": "League standard",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ck-10002",
+      "name": "Cricket All-Rounder Kit Bag",
+      "brand": "StumpCraft",
+      "category": "Cricket",
+      "price": 74.99,
+      "rating": 4.3,
+      "reviewCount": 4293,
+      "stock": 35,
+      "images": [
+        "https://loremflickr.com/1200/800/cricket-kit-bag?lock=729",
+        "https://picsum.photos/seed/nimble-ck-10002/1200/800"
+      ],
+      "shortDescription": "Spacious cricket bag with ventilated compartments and wheels.",
+      "description": "Cricket All-Rounder Kit Bag by StumpCraft is engineered for league standard. Structured storage layout keeps pads, gloves, and bat organized. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Structured storage layout keeps pads, gloves, and bat organized.",
+        "Optimized for net and match play.",
+        "Premium impact-tested materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CK-10002",
+        "Category": "Cricket",
+        "Build": "Impact-tested materials",
+        "RecommendedUse": "Net and match play",
+        "SkillLevel": "League standard",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "ck-10003",
+      "name": "Match Grip Batting Gloves",
+      "brand": "StumpCraft",
+      "category": "Cricket",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviewCount": 4430,
+      "stock": 47,
+      "images": [
+        "https://loremflickr.com/1200/800/cricket-gloves?lock=730",
+        "https://picsum.photos/seed/nimble-ck-10003/1200/800"
+      ],
+      "shortDescription": "Cricket batting gloves offering shock absorption and finger protection.",
+      "description": "Match Grip Batting Gloves by StumpCraft is engineered for league standard. Segmented padding improves impact protection without limiting mobility. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Segmented padding improves impact protection without limiting mobility.",
+        "Optimized for net and match play.",
+        "Premium impact-tested materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CK-10003",
+        "Category": "Cricket",
+        "Build": "Impact-tested materials",
+        "RecommendedUse": "Net and match play",
+        "SkillLevel": "League standard",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bs-11001",
+      "name": "PowerDrive Aluminum Baseball Bat",
+      "brand": "DiamondEdge",
+      "category": "Baseball",
+      "price": 139,
+      "rating": 4.5,
+      "reviewCount": 4567,
+      "stock": 22,
+      "images": [
+        "https://loremflickr.com/1200/800/baseball-bat?lock=731",
+        "https://picsum.photos/seed/nimble-bs-11001/1200/800"
+      ],
+      "shortDescription": "Balanced baseball bat with expanded sweet spot and pop.",
+      "description": "PowerDrive Aluminum Baseball Bat by DiamondEdge is engineered for team training. Optimized barrel profile supports faster bat speed through contact. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Optimized barrel profile supports faster bat speed through contact.",
+        "Optimized for practice and game day.",
+        "Premium reinforced sport-grade materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BS-11001",
+        "Category": "Baseball",
+        "Build": "Reinforced sport-grade materials",
+        "RecommendedUse": "Practice and game day",
+        "SkillLevel": "Team training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bs-11002",
+      "name": "FieldMaster Baseball Glove 12.5",
+      "brand": "DiamondEdge",
+      "category": "Baseball",
+      "price": 109,
+      "rating": 4.6,
+      "reviewCount": 4704,
+      "stock": 28,
+      "images": [
+        "https://loremflickr.com/1200/800/baseball-glove?lock=732",
+        "https://picsum.photos/seed/nimble-bs-11002/1200/800"
+      ],
+      "shortDescription": "Game-ready baseball glove with deep pocket and secure wrist fit.",
+      "description": "FieldMaster Baseball Glove 12.5 by DiamondEdge is engineered for team training. Durable leather shell forms quickly for dependable catches. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Durable leather shell forms quickly for dependable catches.",
+        "Optimized for practice and game day.",
+        "Premium reinforced sport-grade materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BS-11002",
+        "Category": "Baseball",
+        "Build": "Reinforced sport-grade materials",
+        "RecommendedUse": "Practice and game day",
+        "SkillLevel": "Team training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bs-11003",
+      "name": "ProBase Training Baseballs 12-Pack",
+      "brand": "DiamondEdge",
+      "category": "Baseball",
+      "price": 44.99,
+      "rating": 4.7,
+      "reviewCount": 4841,
+      "stock": 58,
+      "images": [
+        "https://loremflickr.com/1200/800/baseball?lock=733",
+        "https://picsum.photos/seed/nimble-bs-11003/1200/800"
+      ],
+      "shortDescription": "Practice baseball set designed for bullpen and batting drills.",
+      "description": "ProBase Training Baseballs 12-Pack by DiamondEdge is engineered for team training. Consistent seam height helps pitchers refine grip and spin control. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Consistent seam height helps pitchers refine grip and spin control.",
+        "Optimized for practice and game day.",
+        "Premium reinforced sport-grade materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BS-11003",
+        "Category": "Baseball",
+        "Build": "Reinforced sport-grade materials",
+        "RecommendedUse": "Practice and game day",
+        "SkillLevel": "Team training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "vb-12001",
+      "name": "SkyStrike Indoor Volleyball",
+      "brand": "NetPulse",
+      "category": "Volleyball",
+      "price": 39.99,
+      "rating": 4.8,
+      "reviewCount": 4978,
+      "stock": 49,
+      "images": [
+        "https://loremflickr.com/1200/800/volleyball?lock=734",
+        "https://picsum.photos/seed/nimble-vb-12001/1200/800"
+      ],
+      "shortDescription": "Indoor volleyball with soft touch and stable trajectory.",
+      "description": "SkyStrike Indoor Volleyball by NetPulse is engineered for school to pro level. Microfiber surface improves control for sets, serves, and spikes. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Microfiber surface improves control for sets, serves, and spikes.",
+        "Optimized for indoor courts.",
+        "Premium grip and impact tuned design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "VB-12001",
+        "Category": "Volleyball",
+        "Build": "Grip and impact tuned design",
+        "RecommendedUse": "Indoor courts",
+        "SkillLevel": "School to pro level",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "vb-12002",
+      "name": "ImpactShield Volleyball Knee Pads",
+      "brand": "NetPulse",
+      "category": "Volleyball",
+      "price": 27.99,
+      "rating": 4.2,
+      "reviewCount": 5115,
+      "stock": 70,
+      "images": [
+        "https://loremflickr.com/1200/800/volleyball-knee-pad?lock=735",
+        "https://picsum.photos/seed/nimble-vb-12002/1200/800"
+      ],
+      "shortDescription": "Cushioned knee pads for dive protection and court mobility.",
+      "description": "ImpactShield Volleyball Knee Pads by NetPulse is engineered for school to pro level. Low-profile foam padding absorbs impact while preserving agility. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Low-profile foam padding absorbs impact while preserving agility.",
+        "Optimized for indoor courts.",
+        "Premium grip and impact tuned design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "VB-12002",
+        "Category": "Volleyball",
+        "Build": "Grip and impact tuned design",
+        "RecommendedUse": "Indoor courts",
+        "SkillLevel": "School to pro level",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bx-13001",
+      "name": "StrikeCore Boxing Gloves 14oz",
+      "brand": "RingForge",
+      "category": "Boxing",
+      "price": 69.99,
+      "rating": 4.3,
+      "reviewCount": 5252,
+      "stock": 41,
+      "images": [
+        "https://loremflickr.com/1200/800/boxing-gloves?lock=736",
+        "https://picsum.photos/seed/nimble-bx-13001/1200/800"
+      ],
+      "shortDescription": "Training gloves with layered foam and secure wrist support.",
+      "description": "StrikeCore Boxing Gloves 14oz by RingForge is engineered for cardio and combat training. Multi-density foam balances punch feedback with hand protection. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Multi-density foam balances punch feedback with hand protection.",
+        "Optimized for bag and sparring drills.",
+        "Premium shock-absorbing layered construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BX-13001",
+        "Category": "Boxing",
+        "Build": "Shock-absorbing layered construction",
+        "RecommendedUse": "Bag and sparring drills",
+        "SkillLevel": "Cardio and combat training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bx-13002",
+      "name": "Titan Heavy Punching Bag 80lb",
+      "brand": "RingForge",
+      "category": "Boxing",
+      "price": 189.99,
+      "rating": 4.4,
+      "reviewCount": 5389,
+      "stock": 13,
+      "images": [
+        "https://loremflickr.com/1200/800/punching-bag?lock=737",
+        "https://picsum.photos/seed/nimble-bx-13002/1200/800"
+      ],
+      "shortDescription": "Heavy bag for boxing and kickboxing endurance sessions.",
+      "description": "Titan Heavy Punching Bag 80lb by RingForge is engineered for cardio and combat training. Reinforced hanging loops withstand high-volume striking routines. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Reinforced hanging loops withstand high-volume striking routines.",
+        "Optimized for bag and sparring drills.",
+        "Premium shock-absorbing layered construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BX-13002",
+        "Category": "Boxing",
+        "Build": "Shock-absorbing layered construction",
+        "RecommendedUse": "Bag and sparring drills",
+        "SkillLevel": "Cardio and combat training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "bx-13003",
+      "name": "SpeedPulse Jump Rope",
+      "brand": "RingForge",
+      "category": "Boxing",
+      "price": 24.99,
+      "rating": 4.5,
+      "reviewCount": 5526,
+      "stock": 79,
+      "images": [
+        "https://loremflickr.com/1200/800/jump-rope?lock=738",
+        "https://picsum.photos/seed/nimble-bx-13003/1200/800"
+      ],
+      "shortDescription": "Adjustable speed rope for conditioning and footwork drills.",
+      "description": "SpeedPulse Jump Rope by RingForge is engineered for cardio and combat training. Bearing handles maintain smooth rotation at high cadence. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Bearing handles maintain smooth rotation at high cadence.",
+        "Optimized for bag and sparring drills.",
+        "Premium shock-absorbing layered construction for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "BX-13003",
+        "Category": "Boxing",
+        "Build": "Shock-absorbing layered construction",
+        "RecommendedUse": "Bag and sparring drills",
+        "SkillLevel": "Cardio and combat training",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "hk-14001",
+      "name": "SummitTrail Hiking Backpack 35L",
+      "brand": "TrailNest",
+      "category": "Hiking",
+      "price": 119.99,
+      "rating": 4.6,
+      "reviewCount": 5663,
+      "stock": 26,
+      "images": [
+        "https://loremflickr.com/1200/800/hiking-backpack?lock=739",
+        "https://picsum.photos/seed/nimble-hk-14001/1200/800"
+      ],
+      "shortDescription": "Lightweight hiking backpack with ventilated back panel.",
+      "description": "SummitTrail Hiking Backpack 35L by TrailNest is engineered for day hikes and weekend trips. Smart pocket layout keeps hydration, layers, and tools organized. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Smart pocket layout keeps hydration, layers, and tools organized.",
+        "Optimized for trail and mountain routes.",
+        "Premium weather-resistant outdoor materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "HK-14001",
+        "Category": "Hiking",
+        "Build": "Weather-resistant outdoor materials",
+        "RecommendedUse": "Trail and mountain routes",
+        "SkillLevel": "Day hikes and weekend trips",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "hk-14002",
+      "name": "Carbon Trekking Poles Pair",
+      "brand": "TrailNest",
+      "category": "Hiking",
+      "price": 79.99,
+      "rating": 4.7,
+      "reviewCount": 5800,
+      "stock": 34,
+      "images": [
+        "https://loremflickr.com/1200/800/trekking-poles?lock=740",
+        "https://picsum.photos/seed/nimble-hk-14002/1200/800"
+      ],
+      "shortDescription": "Adjustable trekking poles for stability on steep terrain.",
+      "description": "Carbon Trekking Poles Pair by TrailNest is engineered for day hikes and weekend trips. Carbon shafts reduce weight while maintaining trail durability. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Carbon shafts reduce weight while maintaining trail durability.",
+        "Optimized for trail and mountain routes.",
+        "Premium weather-resistant outdoor materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "HK-14002",
+        "Category": "Hiking",
+        "Build": "Weather-resistant outdoor materials",
+        "RecommendedUse": "Trail and mountain routes",
+        "SkillLevel": "Day hikes and weekend trips",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cp-15001",
+      "name": "QuickFlame Camping Stove",
+      "brand": "CampAxis",
+      "category": "Camping",
+      "price": 59.99,
+      "rating": 4.8,
+      "reviewCount": 5937,
+      "stock": 37,
+      "images": [
+        "https://loremflickr.com/1200/800/camping-stove?lock=741",
+        "https://picsum.photos/seed/nimble-cp-15001/1200/800"
+      ],
+      "shortDescription": "Compact gas stove with wind guard for campsite cooking.",
+      "description": "QuickFlame Camping Stove by CampAxis is engineered for 3-season adventure. Fast ignition and stable burner output improve outdoor meal prep. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Fast ignition and stable burner output improve outdoor meal prep.",
+        "Optimized for campsite and backcountry.",
+        "Premium compact rugged shell for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CP-15001",
+        "Category": "Camping",
+        "Build": "Compact rugged shell",
+        "RecommendedUse": "Campsite and backcountry",
+        "SkillLevel": "3-season adventure",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cp-15002",
+      "name": "ThermoShield Sleeping Bag 15F",
+      "brand": "CampAxis",
+      "category": "Camping",
+      "price": 149.99,
+      "rating": 4.2,
+      "reviewCount": 6074,
+      "stock": 19,
+      "images": [
+        "https://loremflickr.com/1200/800/sleeping-bag?lock=742",
+        "https://picsum.photos/seed/nimble-cp-15002/1200/800"
+      ],
+      "shortDescription": "Cold-weather sleeping bag with thermal retention design.",
+      "description": "ThermoShield Sleeping Bag 15F by CampAxis is engineered for 3-season adventure. Insulated baffle construction locks in warmth during overnight trips. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Insulated baffle construction locks in warmth during overnight trips.",
+        "Optimized for campsite and backcountry.",
+        "Premium compact rugged shell for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CP-15002",
+        "Category": "Camping",
+        "Build": "Compact rugged shell",
+        "RecommendedUse": "Campsite and backcountry",
+        "SkillLevel": "3-season adventure",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cl-16001",
+      "name": "SummitSafe Climbing Harness",
+      "brand": "VertiCore",
+      "category": "Climbing",
+      "price": 94.99,
+      "rating": 4.3,
+      "reviewCount": 6211,
+      "stock": 24,
+      "images": [
+        "https://loremflickr.com/1200/800/climbing-harness?lock=743",
+        "https://picsum.photos/seed/nimble-cl-16001/1200/800"
+      ],
+      "shortDescription": "Adjustable climbing harness with padded waist and leg loops.",
+      "description": "SummitSafe Climbing Harness by VertiCore is engineered for technical climbing sessions. Load-distribution geometry improves comfort on long belay sessions. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Load-distribution geometry improves comfort on long belay sessions.",
+        "Optimized for gym and outdoor walls.",
+        "Premium safety-first reinforced design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CL-16001",
+        "Category": "Climbing",
+        "Build": "Safety-first reinforced design",
+        "RecommendedUse": "Gym and outdoor walls",
+        "SkillLevel": "Technical climbing sessions",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "cl-16002",
+      "name": "GripDust Chalk Bag Set",
+      "brand": "VertiCore",
+      "category": "Climbing",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviewCount": 6348,
+      "stock": 63,
+      "images": [
+        "https://loremflickr.com/1200/800/chalk-bag?lock=744",
+        "https://picsum.photos/seed/nimble-cl-16002/1200/800"
+      ],
+      "shortDescription": "Chalk bag with belt and secure closure for bouldering routes.",
+      "description": "GripDust Chalk Bag Set by VertiCore is engineered for technical climbing sessions. Wide opening enables quick chalk access on technical moves. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Wide opening enables quick chalk access on technical moves.",
+        "Optimized for gym and outdoor walls.",
+        "Premium safety-first reinforced design for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "CL-16002",
+        "Category": "Climbing",
+        "Build": "Safety-first reinforced design",
+        "RecommendedUse": "Gym and outdoor walls",
+        "SkillLevel": "Technical climbing sessions",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sk-17001",
+      "name": "StreetFlow Complete Skateboard",
+      "brand": "UrbanSpin",
+      "category": "Skating",
+      "price": 89.99,
+      "rating": 4.5,
+      "reviewCount": 6485,
+      "stock": 30,
+      "images": [
+        "https://loremflickr.com/1200/800/skateboard?lock=745",
+        "https://picsum.photos/seed/nimble-sk-17001/1200/800"
+      ],
+      "shortDescription": "Complete skateboard setup for street and park sessions.",
+      "description": "StreetFlow Complete Skateboard by UrbanSpin is engineered for beginner to advanced tricks. Responsive deck concave improves board feel and trick control. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Responsive deck concave improves board feel and trick control.",
+        "Optimized for street and park.",
+        "Premium impact-ready structural build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SK-17001",
+        "Category": "Skating",
+        "Build": "Impact-ready structural build",
+        "RecommendedUse": "Street and park",
+        "SkillLevel": "Beginner to advanced tricks",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "sk-17002",
+      "name": "GlidePro Inline Skates",
+      "brand": "UrbanSpin",
+      "category": "Skating",
+      "price": 139.99,
+      "rating": 4.6,
+      "reviewCount": 6622,
+      "stock": 22,
+      "images": [
+        "https://loremflickr.com/1200/800/inline-skates?lock=746",
+        "https://picsum.photos/seed/nimble-sk-17002/1200/800"
+      ],
+      "shortDescription": "Inline skates with supportive cuff and smooth ABEC bearings.",
+      "description": "GlidePro Inline Skates by UrbanSpin is engineered for beginner to advanced tricks. Shock-absorbing frame supports stable strides on city routes. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Shock-absorbing frame supports stable strides on city routes.",
+        "Optimized for street and park.",
+        "Premium impact-ready structural build for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "SK-17002",
+        "Category": "Skating",
+        "Build": "Impact-ready structural build",
+        "RecommendedUse": "Street and park",
+        "SkillLevel": "Beginner to advanced tricks",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "tt-18001",
+      "name": "SpinEdge Table Tennis Paddle",
+      "brand": "PingElite",
+      "category": "Table Tennis",
+      "price": 49.99,
+      "rating": 4.7,
+      "reviewCount": 6759,
+      "stock": 51,
+      "images": [
+        "https://loremflickr.com/1200/800/table-tennis?lock=747",
+        "https://picsum.photos/seed/nimble-tt-18001/1200/800"
+      ],
+      "shortDescription": "Performance table tennis paddle with spin-focused rubber.",
+      "description": "SpinEdge Table Tennis Paddle by PingElite is engineered for fast spin rallies. Balanced blade construction enhances control in quick exchanges. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Balanced blade construction enhances control in quick exchanges.",
+        "Optimized for indoor table play.",
+        "Premium precision control materials for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "TT-18001",
+        "Category": "Table Tennis",
+        "Build": "Precision control materials",
+        "RecommendedUse": "Indoor table play",
+        "SkillLevel": "Fast spin rallies",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "gf-19001",
+      "name": "AeroLaunch Golf Driver 10.5",
+      "brand": "GreenStrike",
+      "category": "Golf",
+      "price": 299.99,
+      "rating": 4.8,
+      "reviewCount": 6896,
+      "stock": 17,
+      "images": [
+        "https://loremflickr.com/1200/800/golf-driver?lock=748",
+        "https://picsum.photos/seed/nimble-gf-19001/1200/800"
+      ],
+      "shortDescription": "Forgiving golf driver engineered for long and stable tee shots.",
+      "description": "AeroLaunch Golf Driver 10.5 by GreenStrike is engineered for weekend to tournament players. Expanded sweet spot helps maintain distance on off-center contact. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Expanded sweet spot helps maintain distance on off-center contact.",
+        "Optimized for range and course play.",
+        "Premium distance and forgiveness tuned for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "GF-19001",
+        "Category": "Golf",
+        "Build": "Distance and forgiveness tuned",
+        "RecommendedUse": "Range and course play",
+        "SkillLevel": "Weekend to tournament players",
+        "Warranty": "1 year limited"
+      }
+    },
+    {
+      "id": "rc-20001",
+      "name": "DeepRelief Massage Gun Pro",
+      "brand": "RecoverX",
+      "category": "Recovery",
+      "price": 149.99,
+      "rating": 4.2,
+      "reviewCount": 7033,
+      "stock": 29,
+      "images": [
+        "https://loremflickr.com/1200/800/massage-gun?lock=749",
+        "https://picsum.photos/seed/nimble-rc-20001/1200/800"
+      ],
+      "shortDescription": "Percussion massage gun with multiple heads and speed levels.",
+      "description": "DeepRelief Massage Gun Pro by RecoverX is engineered for athletes and active users. Targeted muscle treatment supports post-workout recovery routines. The build focuses on dependable performance, comfort, and long-term durability for serious training days and competition moments.",
+      "highlights": [
+        "Targeted muscle treatment supports post-workout recovery routines.",
+        "Optimized for post-workout recovery.",
+        "Premium muscle-care focused hardware for consistent performance.",
+        "Built for both regular practice sessions and competitive use."
+      ],
+      "specs": {
+        "Model": "RC-20001",
+        "Category": "Recovery",
+        "Build": "Muscle-care focused hardware",
+        "RecommendedUse": "Post-workout recovery",
+        "SkillLevel": "Athletes and active users",
+        "Warranty": "1 year limited"
+      }
+    }
+  ],
+  "orders": []
+}
